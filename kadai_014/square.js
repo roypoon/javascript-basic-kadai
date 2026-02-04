@@ -1,4 +1,4 @@
 const calculateTotal = (x) => {
-  console.log(x ** 2)
+  return x ** 2
 }
-calculateTotal(10)
+console.log(calculateTotal(10))
